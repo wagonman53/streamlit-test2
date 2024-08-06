@@ -223,7 +223,7 @@ filtered_df = filtered_df[(filtered_df["Flop size 2"] >= flop_bet_size[0]) & (fi
 #サンプルデータ数の表示
 st.sidebar.write(f"このノードに到達したデータの数: {len(df)}")
 st.sidebar.write(f"フィルタ後のデータ数: {len(filtered_df)}")
-st.sidebar.write("Raise sizeは独自の定義をしています size = (raize + bet) / (pot + bet)")
+st.sidebar.write("Raise sizeは独自の定義をしています size = (raise + bet) / (pot + bet)")
 
 #メインコンテンツ
 with st.container():
